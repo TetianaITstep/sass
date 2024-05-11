@@ -1,0 +1,7 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto) minmax(600px, 5fr) minmax(100px, auto);
+}

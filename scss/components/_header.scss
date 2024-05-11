@@ -1,0 +1,19 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    align-items: center;
+    background-color: $primary_color;
+
+    &_nav {
+        display: flex;
+    }
+
+    & li {
+
+        margin-right: 10px;
+
+        &:hover {
+            @include bordered(white)
+        }
+    }
+}
